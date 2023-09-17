@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    flex: auto;
+}
+body{
+    background: linear-gradient(135deg, #00feba, #5b548a);
+}
+.Main{
+    text-align: center;
+    color: white;
+    padding: 15px;
+    
+}
+#city{
+    border-radius: 15px;
+    height: 30px;
+    width: 250px;
+    color: black;
+    text-align: center;
+}
+.text{
+  border-radius: 55px;
+}
