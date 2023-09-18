@@ -3,24 +3,54 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    flex: auto;
 }
 body{
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    background-image: url("images/dayTime.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+}
+.Body{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
 }
 .Main{
-    text-align: center;
-    color: white;
     padding: 15px;
+    width: 500px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     
 }
-#city{
-    border-radius: 15px;
-    height: 30px;
-    width: 250px;
-    color: black;
+.Main input{
+    flex: 1;
+    border: 0;
+    outline: 0;
     text-align: center;
+    padding: 10px 25px;
+    border-radius: 15px;
+    height: 40px;
+    width: 250px;
+    color: white;
+    background-color: black;
 }
-.text{
-  border-radius: 55px;
+.Main button{
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    background-color: tomato;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+}
+.Main img{
+    height: 30px;
+    width: 45px;
+}
+
+.Weather{
+    
 }
