@@ -1,2 +1,2 @@
 # Weather-app
-Lookup a state and get the temperature and weather details
+Lookup a city and get the temperature and weather details
